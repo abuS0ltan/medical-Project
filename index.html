@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +11,84 @@
     <link rel="stylesheet" href="assets/css/all.css">
     <!-- custome css -->
     <link rel="stylesheet" href="assets/css/homePageStyle.css">
+    <!-- mediaQueere -->
+    <link rel="stylesheet" href="assets/css/mediaQueere.css">
 </head>
 <body>
-    
+    <!-- ------------------------------------------start nav div----------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <div class="logoDiv">
+            <img src="assets/images/logo.png" alt="mideical logo">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="lines d-flex flex-column ">
+                <div class="navbar-toggler-line rounded-pill"></div>
+                <div class="navbar-toggler-line rounded-pill"></div>
+                <div class="navbar-toggler-line rounded-pill"></div>
+              </div>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">الخدمات الطبية</a>
+              </li>             
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">الطافم الطبي</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">قائمة الأسعار</a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">اتصل بنا </a>
+              </li>              
+              <li class="nav-item singInBtn">
+                <a class="nav-link active singIn rounded-pill" aria-current="page" href="#">تسجيل الدخول</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- ------------------------------------------end nav div----------------------------------------------------- -->
+    <!-- ------------------------------------------start header div----------------------------------------------------- -->
+    <header class="header">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="mainTitle">العيادة الطبية</h1>
+                <p class="describtion"> مركز طبي تخصصي </p>
+                <a href="" class="appointmentBooking mybtn">حجز موعد</a>
+            </div>
+        </div>
+    </header>
+    <div class="aboutAs my-5">
+        
+        <div class="container">
+            <div class="row">
+                <div class="leftDiv p-3 col-sm-6">
+                    <img src="assets/images/about.jpg.webp" alt="dector" class="w-100">
+                </div>
+                <div class="rightDiv col-sm-6 my-5">
+                    <div class="content">
+                        <h2 class="mainTitle">من نحن</h2>
+                        <p class="describtion"> مركز طبي يحتوي على العديد من الاقسام قادر على التعامل مع جميع الحالات. متكون من طاقم طبي متخصص </p>
+                        <div class="btndiv">
+                            <a href="" class="appointmentBookingBtn mybtn">حجز موعد</a>
+                            <a href="" class="contactBtn mybtn">اتصل بنا </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------end header div----------------------------------------------------- -->
+
     <script src="assets/js/homePage.js"></script>
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap.bundle.js"></script>

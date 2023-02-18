@@ -1,0 +1,176 @@
+/* ------------------------------------------start nav public----------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+/* 
+    font-family: 'Changa', sans-serif;
+*/
+:root{
+    --mainColor:rgba(23, 93, 254);
+    --myWhite: rgba(255, 255, 255);
+    --borderRadiusDefult:.375rem;
+    --borderRadiusPill:50rem;
+}
+*{
+    font-family: 'Changa', sans-serif;
+}
+.mybtn{
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    border-width: 1px;
+    border-style:solid;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: var(--borderRadiusPill);
+    -webkit-border-radius: var(--borderRadiusPill);
+    -moz-border-radius: var(--borderRadiusPill);
+    -ms-border-radius: var(--borderRadiusPill);
+    -o-border-radius: var(--borderRadiusPill);
+}
+/* ------------------------------------------end nav public----------------------------------------------------- */
+
+/* ------------------------------------------start nav div----------------------------------------------------- */
+nav.navbar {
+    background-color: var(--mainColor);
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+nav.navbar .container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem .5rem;
+}
+.navbar-collapse .navbar-nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav-item .nav-link.active{
+    color: var(--myWhite);
+    padding: .5rem .8rem;
+    font-family: 'Changa', sans-serif;
+    border-radius: var(--borderRadiusDefult);
+    -webkit-border-radius: var(--borderRadiusDefult);
+    -moz-border-radius: var(--borderRadiusDefult);
+    -ms-border-radius: var(--borderRadiusDefult);
+    -o-border-radius: var(--borderRadiusDefult);
+    margin: 0rem .5rem;
+    border-width: 1px;
+    border-style:solid;
+    border-color: transparent;
+}
+.nav-item .nav-link.active.singIn{
+    background-color: var(--myWhite);
+    color: var(--mainColor);
+    padding: .5rem 1.5rem;
+    border-color: var(--myWhite);
+    
+}
+.nav-item .nav-link.active:hover{
+    background-color: var(--myWhite);
+    color: var(--mainColor);
+}
+.nav-item .nav-link.active.singIn:hover{
+    background-color: transparent;
+    color: var(--myWhite);
+}
+.lines{
+    height: 100%;
+    margin-top: .7rem;
+}
+.navbar-toggler-line{
+    width: 2.5rem;
+    height: .2rem;
+    background-color: var(--myWhite);
+    margin-bottom:  .5rem;
+}
+.navbar-toggler{
+    color: var(--myWhite);
+    border-color: var(--myWhite);
+}
+/* ------------------------------------------end nav div----------------------------------------------------- */
+/* ------------------------------------------start header div----------------------------------------------------- */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    position: relative;
+}
+.header .container{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    height: 100%;
+    justify-content: center;
+    color: var(--myWhite);
+    align-items: flex-end;
+}
+.header .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:  rgba(0, 53, 187, 0.4) ;
+    z-index: 0;
+}
+.header .mainTitle{
+    font-size: 5rem;
+    width: fit-content;
+}
+.header .describtion{
+    font-size: 2rem;
+    width: fit-content;
+}
+.appointmentBooking{
+    
+    color: var(--mainColor);
+    background-color: var(--myWhite);
+    margin: 0rem .5rem;
+    border-color:var(--myWhite) ;
+}
+.appointmentBooking:hover{
+    background-color: transparent;
+    color: var(--myWhite);
+}
+/* ------------------------------------------end header div----------------------------------------------------- */
+/* ------------------------------------------start about div----------------------------------------------------- */
+.aboutAs .leftDiv img{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.aboutAs .rightDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+}
+.aboutAs .mainTitle{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.aboutAs .describtion{
+    font-size: 1.5rem;
+}
+.btndiv{
+    margin-top: 3rem;
+}
+.aboutAs .contactBtn{
+    color: #fe5f55;
+}
+.aboutAs .contactBtn:hover{
+    background-color: #fe5f55;
+    color: var(--myWhite);
+}
+.aboutAs .appointmentBookingBtn:hover{
+    background-color: var(--mainColor);
+    color: var(--myWhite);
+}
+/* ------------------------------------------end about div----------------------------------------------------- */
+
+

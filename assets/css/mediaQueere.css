@@ -39,7 +39,7 @@
     }
   }
   @media (max-width: 575.98px) { 
-    .header .mainTitle{
+    .header .headTitle{
         font-size: 3rem;
     }
     .header .describtion{

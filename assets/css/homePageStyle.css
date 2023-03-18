@@ -8,6 +8,8 @@
     --myWhite: rgba(255, 255, 255);
     --borderRadiusDefult:.375rem;
     --borderRadiusPill:50rem;
+    --secoundColor: #e3e3e3;
+    --footerColor:#152538;
 }
 *{
     font-family: 'Changa', sans-serif;
@@ -204,6 +206,9 @@ nav.navbar .container{
 .counter .row{
     flex-direction: row-reverse;
 }
+.counter .col-md-4{
+    margin-bottom: 1rem;
+}
 .counter .item{
     background-color: rgba(255, 255, 255,.2);
 padding: 2rem;
@@ -261,6 +266,10 @@ height: 100%;
     -moz-border-radius: var(--borderRadiusDefult);
     -ms-border-radius: var(--borderRadiusDefult);
     -o-border-radius: var(--borderRadiusDefult);
+    
+}
+.doctors .col-md-4{
+    margin-bottom: 1rem;
 }
 .doctor img{
     width: 100%;
@@ -298,10 +307,29 @@ height: 100%;
     color: #d6249f;
 }
 /* ------------------------------------------end doctors div----------------------------------------------------- */
+/* ------------------------------------------start peice div----------------------------------------------------- */
+.price {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.price .table tr th ,.price .table tr td{
+    border-width: 1px;
+    border-style:solid;
+    border-color: var(--myWhite);
+}
+.price .table tr th{
+    background-color: var(--mainColor);
+    color: var(--myWhite);
+}
+.price .table tr td{
+    background-color: var(--secoundColor);
+}
+/* ------------------------------------------end price studio div----------------------------------------------------- */
 /* ------------------------------------------start studio div----------------------------------------------------- */
 .studio{
     text-align: center;
     padding: 3rem 0;
+    background-color: var(--secoundColor);
 }
 .studio img{
     width: 100%;
@@ -317,6 +345,89 @@ height: 100%;
     padding: 1rem 0;
 }
 /* ------------------------------------------end studio div----------------------------------------------------- */
+/* ------------------------------------------start location div----------------------------------------------------- */
+
+/* ------------------------------------------end location div----------------------------------------------------- */
+.location {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.location .row{
+    align-items: center;
+    height: 100%;
+}
+.location .locationText{
+    text-align: right;
+    font-size: 2rem;
+    background-color: #152538;
+    height: 100%;
+    color: var(--myWhite);
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: var(--borderRadiusDefult);
+    -webkit-border-radius: var(--borderRadiusDefult);
+    -moz-border-radius: var(--borderRadiusDefult);
+    -ms-border-radius: var(--borderRadiusDefult);
+    -o-border-radius: var(--borderRadiusDefult);
+}
+.location .text{
+    width: 100%;
+}
+.location .col-md-6{
+    height: 450px;
+
+}
+.location ul{
+    list-style: none;
+}
+.googleMap iframe{
+    border-radius: var(--borderRadiusDefult);
+    -webkit-border-radius: var(--borderRadiusDefult);
+    -moz-border-radius: var(--borderRadiusDefult);
+    -ms-border-radius: var(--borderRadiusDefult);
+    -o-border-radius: var(--borderRadiusDefult);
+}
+/* ------------------------------------------start footerdiv----------------------------------------------------- */
+.footer{
+    background-color: var(--footerColor);
+}
+.footer .row{
+    flex-direction: row-reverse;
+}
+.footer .row{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+.midel{
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: white;
+
+}
+.times ul{
+    text-align: right;
+    list-style: none;
+    padding-right: 1rem;
+}
+.times ul li{
+    padding: .5rem;
+}
+.time{
+    padding-right: 1rem;
+}
+.contact .item{
+    color: var(--myWhite);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.contact .times{
+    display: flex;
+}
+/* ------------------------------------------end footer div----------------------------------------------------- */
+
 
 
 

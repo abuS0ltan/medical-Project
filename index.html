@@ -31,22 +31,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                <a class="nav-link active" aria-current="page" href="#header">الرئيسية</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">من نحن</a>
+                <a class="nav-link active" aria-current="page" href="#aboutAs">من نحن</a>
               </li>              
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">الخدمات الطبية</a>
+                <a class="nav-link active" aria-current="page" href="#services">الخدمات الطبية</a>
               </li>             
                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">الطافم الطبي</a>
+                <a class="nav-link active" aria-current="page" href="#doctors">الطافم الطبي</a>
               </li>              
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">قائمة الأسعار</a>
-              </li>                            
+                <a class="nav-link active" aria-current="page" href="#price">قائمة الأسعار</a>
+              </li> 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">اتصل بنا </a>
+                <a class="nav-link active" aria-current="page" href="#studio">الأستوديو</a>
+              </li>                               
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">اتصل بنا </a>
               </li>              
               <li class="nav-item singInBtn">
                 <a class="nav-link active singIn rounded-pill" aria-current="page" href="#">تسجيل الدخول</a>
@@ -57,7 +60,7 @@
       </nav>
     <!-- ------------------------------------------end nav div----------------------------------------------------- -->
     <!-- ------------------------------------------start header div----------------------------------------------------- -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="overlay">
             <div class="container">
                 <h1 class="headTitle">العيادة الطبية</h1>
@@ -68,7 +71,7 @@
     </header>
     <!-- ------------------------------------------end header div----------------------------------------------------- -->
     <!-- ------------------------------------------start about div----------------------------------------------------- -->
-    <div class="aboutAs my-5">
+    <div class="aboutAs my-5" id="aboutAs">
         <div class="container">
             <div class="row">
                 <div class="leftDiv p-3 col-sm-6">
@@ -117,7 +120,7 @@
     </div>
     <!-- ------------------------------------------end counter div----------------------------------------------------- -->
     <!-- ------------------------------------------start Services  div----------------------------------------------------- -->
-    <div class="services">
+    <div class="services" id="services">
       <div class="container">
         <h2 class="mainTitle">الخدمات المقدمة</h2>
         <div class="row">
@@ -162,7 +165,7 @@
     </div>
     <!-- ------------------------------------------end Services  div----------------------------------------------------- -->
     <!-- ------------------------------------------start Doctors  div----------------------------------------------------- -->
-    <div class="doctors">
+    <div class="doctors" id="doctors">
       <h2 class="mainTitle">الطاقم الطبي</h2>
       <div class="container">
         <div class="row">
@@ -222,33 +225,50 @@
     </div>
     <!-- ------------------------------------------end Doctors  div----------------------------------------------------- -->
     <!-- ------------------------------------------start price  div----------------------------------------------------- -->
-    <!-- <div class="price">
-      <h2 class="mainTitle">اسعار الخدمات</h2>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-          </tr>
-        </tbody>
-      </table>
-    </div> -->
+    <div class="price" id="price">
+      <div class="container">
+        <h2 class="mainTitle">اسعار الخدمات</h2>
+        <table class="table">
+          <thead>
+            <tr>
+                <th scope="col-2">السعر</th>
+                <th scope="col-7">أسم الخدمة</th>
+                <th scope="col-3">#</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>100$</td>
+              <td>جراحة عامة</td>
+              
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>60$</td>
+              <td>جلسة علاج تنفسي</td>
+              
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>60$</td>
+              <td>جلسة علاج طبيعي</td>
+              
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>1000$</td>
+              <td>قسطرة</td>
+              
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+     
+    </div>
     <!-- ------------------------------------------end price  div----------------------------------------------------- -->
     <!-- ------------------------------------------start studio div----------------------------------------------------- -->
-    <div class="studio">
+    <div class="studio" id="studio">
       <h2 class="mainTitle">
         الاستوديو
       </h2>
@@ -278,6 +298,66 @@
       </div>
     </div>
     <!-- ------------------------------------------end studio  div----------------------------------------------------- -->
+    <!-- ------------------------------------------start location div----------------------------------------------------- -->
+    <div class="location">
+      <div class="container">
+        <h2 class="mainTitle">العنوان</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="locationText">
+              <div class="text">
+                <span class="icon">                  
+                  <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <ul>
+                  <li>فلسطين</li>
+                  <li>الخليل</li>
+                  <li>
+                    عين سارة
+                  </li>
+                  <li>بجانب ملعب الحسين</li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="googleMap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3400.524172608408!2d35.097602599068836!3d31.537226302909534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1679132997296!5m2!1sar!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- ------------------------------------------end location div----------------------------------------------------- -->
+    <!-- ------------------------------------------start footer div----------------------------------------------------- -->
+    <footer class="footer text-light py-5 text-center" id="contact">
+      <div class="container">
+          <div class="row mb-2 pb-4">
+              <div class="col-md-6 times midel ">
+                  <h2 class="title">أوقات الدوام</h2>
+                  <ul>
+                    <li> السبت: <sapn class="time">9:00-18:00</sapn></li>
+                    <li>الاحد - الخميس: <span class=" time">8:00-21:00</span></li>
+                    <li>الجمعة: <span class="time">12:00-18:00</span></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 contact">
+                  <h2 class="title">اتصل بنا</h2>
+                  <div class="items">
+                    <a href="tel:0595112975" class="item"><i class="fa-solid fa-phone"></i></a>
+                    <a href="mailto:ahmadsultan.sultanahmad@gamil.com" class="item"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/kingahmad2015/" target="_blank" class="item"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ahmad.sultan.9849/" target="_blank" class="item"><i class="fa-brands fa-facebook"></i></a>
+                  </div>
+          </div>
+          </div>
+          <div class="copyRight pt-2"> Copy Right &copy; Ahmad Sultan</div>
+      </div>
+    </footer>
+  <!-- ------------------------------------------end location div----------------------------------------------------- -->
 
     <script src="assets/js/homePage.js"></script>
     <!-- bootstrap js -->

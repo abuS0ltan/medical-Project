@@ -1,0 +1,65 @@
+/* ------------------------------------------start  public----------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+/* 
+    font-family: 'Changa', sans-serif;
+*/
+:root{
+    --mainColor:rgba(23, 93, 254);
+    --myWhite: rgba(255, 255, 255);
+    --borderRadiusDefult:.375rem;
+    --borderRadiusPill:50rem;
+    --secoundColor: #e3e3e3;
+    --footerColor:#152538;
+}
+*{
+    font-family: 'Changa', sans-serif;
+}
+/* ------------------------------------------end  public----------------------------------------------------- */
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/BookAnAppointment.png');
+    background-size: cover;
+    text-align: right;
+}
+.container{
+    height: 100%;
+}
+.content .container .row{
+    flex-direction: row-reverse;
+    height: 100%;
+    align-items: center;
+}
+.form{
+    background-color: rgba(255, 255, 255,.7);
+    border-radius: var(--borderRadiusDefult);
+    -webkit-border-radius: var(--borderRadiusDefult);
+    -moz-border-radius: var(--borderRadiusDefult);
+    -ms-border-radius: var(--borderRadiusDefult);
+    -o-border-radius: var(--borderRadiusDefult);
+    padding: 3rem;
+}
+.dectorList{
+    background-color: var(--secoundColor);
+    text-transform: capitalize;
+    border-radius: var(--borderRadiusDefult);
+    -webkit-border-radius: var(--borderRadiusDefult);
+    -moz-border-radius: var(--borderRadiusDefult);
+    -ms-border-radius: var(--borderRadiusDefult);
+    -o-border-radius: var(--borderRadiusDefult);
+    margin: .3rem 0;
+    border-width: 1px;
+    border-color: var(--secoundColor);
+    border-style: solid;
+    display: none;
+}
+.dectorList ul{
+    list-style: none;
+    padding: 0;
+}
+.dectorList li{
+    padding: .2rem 1rem;
+}
+.dectorList li:hover{
+    background-color: whitesmoke;
+}
